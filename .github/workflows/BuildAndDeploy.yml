@@ -12,6 +12,11 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Install
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: run ghPages
+
       - name: Build
         uses: borales/actions-yarn@v2.3.0
         with:
