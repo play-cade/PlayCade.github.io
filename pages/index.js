@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,6 +11,12 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
+                <Image className={styles.logo}
+                    src="/logo.png"
+                    alt="PlayCade Logo"
+                    width={250}
+                    height={250}
+                />
                 <h1 className={styles.title}>
                     Hello World, Welcome to Cade
                 </h1>
