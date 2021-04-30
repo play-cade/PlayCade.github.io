@@ -11,12 +11,11 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <Image className={styles.logo}
-                    src="/logo.png"
-                    alt="PlayCade Logo"
-                    width={250}
-                    height={250}
-                />
+                <img className={styles.logo}
+                     src="logo.png"
+                     width={250}
+                     height={250}
+                     alt="PlayCade Logo"/>
                 <h1 className={styles.title}>
                     Hello World, Welcome to Cade
                 </h1>
