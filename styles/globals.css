@@ -1,9 +1,26 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-colour: #272d2d;
+    --footer-border-colour: #2e3636;
+    --text-colour: #FFFFFF;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-colour: #FFFFFF;
+    --footer-border-colour: #eaeaea;
+    --text-colour: #000000;
+  }
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--bg-colour);
 }
 
 a {
@@ -14,3 +31,4 @@ a {
 * {
   box-sizing: border-box;
 }
+

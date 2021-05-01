@@ -12,13 +12,11 @@ export default function Home() {
             <main className={styles.main}>
                 <img className={styles.logo}
                      src="logo.png"
-                     width={250}
-                     height={250}
                      alt="PlayCade Logo"/>
-                <h1 className={styles.title}>
+                <h1 className={[styles.title, styles.text].join(" ")}>
                     Hello World, Welcome to Cade
                 </h1>
-                <p>Cade is currently in the early stages of development. Come hang on our <a href={"https://github.com/PlayCade"}>Github</a> to find out more</p>
+                <p className={styles.text}>Cade is currently in the early stages of development. Come hang on our <a href={"https://github.com/PlayCade"}>Github</a> to find out more</p>
             </main>
 
             <footer className={styles.footer}>
