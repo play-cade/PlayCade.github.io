@@ -44,12 +44,13 @@
 }
 
 .text a {
-  text-decoration: underline;
+  font-weight: lighter;
+  color: var(--text-colour-highlight);
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.text a:hover,
+.text a:focus,
+.text a:active {
   text-decoration: underline;
 }
 

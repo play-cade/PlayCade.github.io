@@ -3,6 +3,7 @@
     --bg-colour: #272d2d;
     --footer-border-colour: #2e3636;
     --text-colour: #FFFFFF;
+    --text-colour-highlight: #ffffff;
   }
 }
 
@@ -11,6 +12,7 @@
     --bg-colour: #FFFFFF;
     --footer-border-colour: #eaeaea;
     --text-colour: #000000;
+    --text-colour-highlight: #181818;
   }
 }
 
