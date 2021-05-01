@@ -16,7 +16,7 @@ export default function Home() {
                 <h1 className={[styles.title, styles.text].join(" ")}>
                     Hello World, Welcome to Cade
                 </h1>
-                <h2 className={styles.text}>Cade is currently in the early stages of development.</h2>
+                <h2 className={styles.text}>Cade is multiplatform arcade emulation system currently in the early stages of development.</h2>
                 <p className={styles.text}>Come hang out on our <a href={"https://github.com/PlayCade"}>GitHub</a> or <a href={"https://discord.gg/tkCMXrWdkD"}>Discord</a> to find out more</p>
             </main>
 
