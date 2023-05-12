@@ -17,7 +17,7 @@ export default function Home() {
                     Hello World, Welcome to Cade
                 </h1>
                 <h2 className={styles.text}>Cade is multiplatform arcade emulation system currently in the early stages of development.</h2>
-                <p className={styles.text}>Come hang out on our <a href={"https://github.com/PlayCade"}>GitHub</a> or <a href={"https://discord.gg/tkCMXrWdkD"}>Discord</a> to find out more</p>
+                <p className={styles.text}>Come hang out on our <a href={"https://github.com/play-cade"}>GitHub</a> or <a href={"https://discord.gg/tkCMXrWdkD"}>Discord</a> to find out more</p>
             </main>
 
             <footer className={styles.footer}>
